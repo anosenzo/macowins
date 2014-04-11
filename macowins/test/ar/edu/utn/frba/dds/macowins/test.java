@@ -40,6 +40,8 @@ public class test {
 		macowins.gananciasDelDia(fechaVenta1);
 		macowins.gananciasDelDia(fechaVenta2);
 		macowins.gananciasDelDia(fechaVenta2);
+		
+		// llala
 	
 	}
 }
