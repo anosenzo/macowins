@@ -15,8 +15,9 @@ public abstract class Prenda {
 		Prenda.valorFijoDelNegocio = valorFijo;
 	}
 	
-	protected Prenda(Marca marca){
+	protected Prenda(Marca marca, boolean importada){
 		this.marca = marca;
+		this.importada = importada;
 	}
 	
 	private double dameTasaDeImportacion(){

@@ -4,8 +4,8 @@ public class Saco extends Prenda {
 
 	int cantidadDeBotones;
 		
-	public Saco(Marca marca, int cantidadDeBotones) {
-		super(marca);
+	public Saco(Marca marca, boolean importada,int cantidadDeBotones) {
+		super(marca, importada);
 		this.cantidadDeBotones = cantidadDeBotones;
 	}
 	

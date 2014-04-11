@@ -4,8 +4,8 @@ public class Sombrero extends Prenda {
 
 	int coeficienteDeMetrosexualidad;
 	
-	public Sombrero(Marca marca, int coeficienteDeMetrosexualidad) {
-		super(marca);
+	public Sombrero(Marca marca, boolean importada,int coeficienteDeMetrosexualidad) {
+		super(marca, importada);
 		this.coeficienteDeMetrosexualidad = coeficienteDeMetrosexualidad;
 	}
 	

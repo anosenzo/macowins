@@ -18,11 +18,11 @@ public class test {
 		Sarkany marcaZarcany = new Sarkany();
 		
 		// Creo las prendas
-		Saco sacoArmani = new Saco(marcaArmani, 4);
-		Camisa camisaArmani = new Camisa(marcaArmani);
-		Pantalon pantalonArmani = new Pantalon(marcaArmani, 40);
-		Sombrero sombreroSarkany = new Sombrero(marcaZarcany, 80);
-		Zapatos zapatosSarkany = new Zapatos(marcaZarcany, 43);
+		Saco sacoArmani = new Saco(marcaArmani, true, 4);
+		Camisa camisaArmani = new Camisa(marcaArmani, true);
+		Pantalon pantalonArmani = new Pantalon(marcaArmani, true, 40);
+		Sombrero sombreroSarkany = new Sombrero(marcaZarcany, false, 80);
+		Zapatos zapatosSarkany = new Zapatos(marcaZarcany, false, 43);
 		
 		// Creo las fechas de venta
 		LocalDate fechaVenta1 = LocalDate.of(2014, Month.APRIL, 9);

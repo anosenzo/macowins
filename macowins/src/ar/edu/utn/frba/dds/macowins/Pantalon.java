@@ -4,8 +4,8 @@ public class Pantalon extends Prenda {
 
 	int cm2deTelaUsada;
 	
-	public Pantalon(Marca marca, int cm2deTelaUsada) {
-		super(marca);
+	public Pantalon(Marca marca, boolean importada, int cm2deTelaUsada) {
+		super(marca, importada);
 		this.cm2deTelaUsada = cm2deTelaUsada;
 	}
 

@@ -4,8 +4,8 @@ public class Zapatos extends Prenda {
 	
 	int talle;
 	
-	public Zapatos(Marca marca, int talle) {
-		super(marca);
+	public Zapatos(Marca marca, boolean importada, int talle) {
+		super(marca, importada);
 		this.talle = talle;
 	}
 	
